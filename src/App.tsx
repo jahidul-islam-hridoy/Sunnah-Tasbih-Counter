@@ -287,7 +287,11 @@ export default function App() {
             <button onClick={() => setState((prev) => ({ ...prev, currentPage: 'contact' }))} className="hover:text-white">Contact</button>
           </div>
           <div>
-            <p className="text-[11px] text-emerald-500">Made with sincerity & dedication</p>
+            <p className="text-[11px] text-emerald-500">Made with sincerity & dedication By <a href="https://www.facebook.com/Jahidkhanbabu.h" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Hridoy
+</a></p>
           </div>
         </div>
       </footer>
